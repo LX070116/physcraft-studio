@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: physcraft-studio
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
